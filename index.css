@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, auto);
+    /* border: 1px solid blue; */
+    width: fit-content;
+    justify-content: center;
+    position: absolute;
+    align-content: center;
+    top: 30%;
+    left: 40%;
+}
+.container > div {
+    /* border: 1px solid black; */
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.50)
+}
+#item_1, #item_2, #item_3, #item_4{
+    background-color: #03a9f4;
+    color: white;
+}
+#item_5{
+    /* border: 1px solid rgb(19, 1, 1); */
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    /* z-index: 1; */
+    background-color: #f50057;
+    color: white;
+}
